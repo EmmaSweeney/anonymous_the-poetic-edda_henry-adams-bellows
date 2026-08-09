@@ -1,2 +1,62 @@
 @charset "utf-8";
 @namespace epub "http://www.idpf.org/2007/ops";
+
+.speech-tag{
+	font-style: italic;
+}
+
+/* Poem, verse headers */
+[epub|type~="z3998:poem"] header p,
+[epub|type~="z3998:verse"] header p{
+	text-align: center;
+}
+/* End poem, verse headers */
+
+/* Poem, verse */
+[epub|type~="z3998:poem"] p,
+[epub|type~="z3998:verse"] p{
+	text-align: initial;
+	text-indent: 0;
+}
+
+[epub|type~="z3998:poem"] p > span,
+[epub|type~="z3998:verse"] p > span{
+	display: block;
+	padding-left: 1em;
+	text-indent: -1em;
+}
+
+[epub|type~="z3998:poem"] p > span + br,
+[epub|type~="z3998:verse"] p > span + br{
+	display: none;
+}
+
+[epub|type~="z3998:poem"] p + p,
+[epub|type~="z3998:verse"] p + p{
+	margin-top: 1em;
+}
+
+p span.i1{
+	padding-left: 2em;
+	text-indent: -1em;
+}
+
+p span.i2{
+	padding-left: 3em;
+	text-indent: -1em;
+}
+
+/* Caesuras */
+span > span + span{
+	margin-left: 1.5em;
+}
+
+span.elision{
+	margin: .5em;
+	margin-left: 3em;
+}
+
+/* If eliding within an epigraph, include this additional style: */
+[epub|type~="epigraph"] span.elision{
+	font-style: normal;
+}
