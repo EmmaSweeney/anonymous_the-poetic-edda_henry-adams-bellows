@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<se-lint-ignore>
+	<file path="alvissmol.xhtml">
+		<ignore code="y-026">
+			<reason>Nor is a character’s name.</reason>
+		</ignore>
+	</file>
+	<file path="vafthruthnismol.xhtml">
+		<ignore code="y-026">
+			<reason>Nor is a character’s name.</reason>
+		</ignore>
+	</file>
+</se-lint-ignore>
