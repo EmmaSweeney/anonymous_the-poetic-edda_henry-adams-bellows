@@ -1,0 +1,1 @@
+1. A mixture of “Sigurtharkvitha en Skamma” and “Sigurtharkvitha en skamma”.
