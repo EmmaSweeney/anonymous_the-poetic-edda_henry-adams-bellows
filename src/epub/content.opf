@@ -96,6 +96,7 @@
 		<item href="css/core.css" id="core.css" media-type="text/css"/>
 		<item href="css/local.css" id="local.css" media-type="text/css"/>
 		<item href="css/se.css" id="se.css" media-type="text/css"/>
+		<item href="glossary-search-key-map.xml" id="glossary-search-key-map.xml" media-type="application/vnd.epub.search-key-map+xml" properties="glossary search-key-map"/>
 		<item href="images/cover.svg" id="cover.svg" media-type="image/svg+xml" properties="cover-image"/>
 		<item href="images/logo.svg" id="logo.svg" media-type="image/svg+xml"/>
 		<item href="images/titlepage.svg" id="titlepage.svg" media-type="image/svg+xml"/>
@@ -110,6 +111,7 @@
 		<item href="text/endnotes.xhtml" id="endnotes.xhtml" media-type="application/xhtml+xml"/>
 		<item href="text/fafnismol.xhtml" id="fafnismol.xhtml" media-type="application/xhtml+xml"/>
 		<item href="text/fra-dautha-sinfjotla.xhtml" id="fra-dautha-sinfjotla.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/glossary.xhtml" id="glossary.xhtml" media-type="application/xhtml+xml" properties="glossary"/>
 		<item href="text/grimnismol.xhtml" id="grimnismol.xhtml" media-type="application/xhtml+xml"/>
 		<item href="text/gripisspo.xhtml" id="gripisspo.xhtml" media-type="application/xhtml+xml"/>
 		<item href="text/guthrunarhvot.xhtml" id="guthrunarhvot.xhtml" media-type="application/xhtml+xml"/>
@@ -189,6 +191,7 @@
 		<itemref idref="guthrunarhvot.xhtml"/>
 		<itemref idref="hamthesmol.xhtml"/>
 		<itemref idref="appendix.xhtml"/>
+		<itemref idref="glossary.xhtml"/>
 		<itemref idref="endnotes.xhtml"/>
 		<itemref idref="colophon.xhtml"/>
 		<itemref idref="uncopyright.xhtml"/>
